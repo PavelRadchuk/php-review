@@ -17,6 +17,7 @@
     echo "<br />adding Boa...<br />";
     $animals = addAnimal($animals, "Boa");
     printAnimals($animals);
+    echo "<br />";
 
     function printAnimals ($animals){
         sort($animals);
@@ -34,12 +35,12 @@
         array_push($animalsArray, $animal);
         return $animalsArray;
     }
-
-
-    //print_r($animals);
-
-//    echo $animals[1] . $animals[2] . $animals[0];
-//    echo "<br>adding " . $animals[3] . "...<br>";
-//    echo $animals[1] . $animals[2] . $animals[3] . $animals[0];
-//    echo "<br>adding " . $animals[2] . "...<br>";
-//    echo $animals[1] . $animals[2] . $animals[3] . $animals[0];
+    $cupcakes = array("grasshopper"=>"The Grasshopper",
+    "maple"=>"Whiskey Maple Bacon",
+    "carrot"=>"Carrot Walnut",
+    "caramel"=>"Salted Caramel Cupcake",
+    "velvet"=>"Red Velvet",
+    "lemon"=>"Lemon Drop",
+    "tiramisu"=>"Tiramisu",
+    );
+?>
