@@ -5,7 +5,7 @@
  * Date: 1/16/18
  * Time: 9:20 AM
  */
-
+    //part one
     $animals[0] = "panda";
     $animals[1] = "alpaca";
     $animals[2] = "boa";
@@ -35,6 +35,7 @@
         array_push($animalsArray, $animal);
         return $animalsArray;
     }
+    //part two
     $cupcakes = array("grasshopper"=>"The Grasshopper",
     "maple"=>"Whiskey Maple Bacon",
     "carrot"=>"Carrot Walnut",
