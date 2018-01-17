@@ -43,5 +43,7 @@
     "lemon"=>"Lemon Drop",
     "tiramisu"=>"Tiramisu",
     );
-    //foreach
+    foreach($cupcakes as $cupcakes => $name) {
+        echo "<input type=\"checkbox\" name=\"flavors[]\" value=\"$cupcakes\"> $name<br>";
+    }
 ?>
